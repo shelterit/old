@@ -1,0 +1,67 @@
+
+alex :person "(mr) Alexander _Johannesen"
+  @website "http://shelter.nu"
+
+julie :person "(mrs) Julie Anne _Johannesen"
+
+
+
+pm :activity "Project Management"
+
+project "A project"
+  has timeline
+  has resources
+  governed by people
+
+company "A company"
+  has income
+  has products
+  has staff
+  has owners
+
+product concept
+   idea
+   design
+   manufactor
+   selling
+   upgrade
+   support
+
+objective
+   plan
+      timeline
+      resources
+   result
+
+
+person concept
+   = being
+   @ timeline
+   @ location
+
+project concept
+   @ plan
+   @ timeline
+
+-----------
+
+objective
+   "Create a PHP class for simple Topic Maps functionality"
+   plan
+      - programming
+      - documentation
+      - testing
+
+
+project
+   objective
+      "Create a Topic Maps / ontology based infra-structure for application development"
+   plan
+      timeline
+      resources
+      state
+   observations
+      timeline
+      resources
+      state
+
