@@ -17,6 +17,9 @@
         
         private $uri = null ;
         
+        // variable for testing GIT integration; will get trunkated later
+        private $new_feature_test = true ;
+        
         // register that we want to include an associated JavaScript file
         public $_include_js = true ;
 
